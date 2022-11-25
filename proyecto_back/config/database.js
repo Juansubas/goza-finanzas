@@ -13,4 +13,5 @@ exports.mongoConnect = () => {
   mongoose.Promise = global.Promise;
   const dbConnection = mongoose.connection;
   dbConnection.on("error", console.error.bind(console, "Mongodb connection error"))
+  
 };
