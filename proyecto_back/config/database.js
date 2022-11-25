@@ -16,6 +16,8 @@ const db = "hr";
   
 // };
 
+
+
 exports.mongoConnect = async () => {
   const mongoStringConnection = `mongodb+srv://admin:admin@videogame.ae2hpnn.mongodb.net/goza-finanzas`;
   try {
