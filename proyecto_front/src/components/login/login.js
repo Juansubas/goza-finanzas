@@ -56,7 +56,7 @@ export default class login extends React.Component {
         <Row>
           <Col>
             <Row>
-              <h2>Iniciar Sesión</h2>
+              <h2 style={{ marginTop: 200 }}>Iniciar Sesión</h2>
             </Row>
             <Row>
               <Col
