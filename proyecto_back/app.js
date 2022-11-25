@@ -33,9 +33,9 @@ app.use(function(req, res, next) {
   next(createError(404));
 });
 
-const port = "0.0.0.0"
+const port = 4000
 
-app.use(port, () => {
+app.listen(port, () => {
   console.log(port)
 })
 
