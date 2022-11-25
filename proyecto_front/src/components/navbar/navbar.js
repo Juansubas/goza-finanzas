@@ -56,7 +56,7 @@ export default class menu extends React.Component {
     return (
       <Navbar fixed="top" id="navbar" bg="primary" variant="dark">
         <Container>
-          <Navbar.Brand href="#home">
+          <Navbar.Brand href="../">
             GozaFinanzas<span id="usuario-sub-branm"></span>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
